@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Reading Quran Basics",
+        "fee": "200",
+        "description": "Do you dream of mastering the Holy Quran recitation whether for you or your children? Reading the Quran Basics course is your first step to achieving your dream. In this course, you and your children also will learn how to read Arabic.",
+        "img": "https://i.ibb.co/X85zxQv/course2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Quran Recitation",
+        "fee": "150",
+        "description": "In this course, you will recite all of the Holy Quran. You will learn how to correctly recite it in the way as reported by the Prophet Muhammad (peace be upon him). You will start from the short Surahs to the longest ones. In addition, you will be trained on recitation according to the Tajweed rules. ",
+        "img": "https://i.ibb.co/BGWTRV7/course3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Quran Tajweed",
+        "fee": "220",
+        "description": "Tajweed is the science of reciting the Quran according to the way heard by the companions from the Prophet Muhammad (PBUH). Allah Almighty said, “And recite the Qur’an with measured recitation.” (73:4).",
+        "img": "https://i.ibb.co/J58wKSJ/course5.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Quran for Kids",
+        "fee": "180",
+        "description": "This course offers a complete path of Quran learning for kids ranging from learning Quran reading & recitation to studying Tajweed & memorizing the Quran.",
+        "img": "https://i.ibb.co/1bbbfZr/course1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Quran Memorization",
+        "fee": "150",
+        "description": "Each Muslim dreams of Memorizing the Quran and understanding its meanings. Quran is the guidance sent by Allah Almighty to his Prophet Muhammad (PBUH).",
+        "img": "https://i.ibb.co/GTGyRMR/course4.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Ten Qira’at",
+        "fee": "300",
+        "description": "Ten Qirats are the ten famous methods of the Quran recitations by the famous authority chains holders. Each Qira’at derives its name from the famous Rawi, the one who narrates it with an established and authenticated chain.",
+        "img": "https://i.ibb.co/cYzpB9Q/course6.jpg"
+    }
+]
