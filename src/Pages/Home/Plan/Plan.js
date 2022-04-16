@@ -13,7 +13,7 @@ const Plan = ({ plan }) => {
                     <h6>CoursePeriod: {CoursePeriod}</h6>
                     <h6>Gender: {Gender}</h6>
                     <h6>Languages: {Languages}</h6>
-                    <a href="#" className="btn btn-primary">Choose The Plan</a>
+                    <button href="#" className="btn btn-primary">Choose The Plan</button>
                 </div>
             </div>
         </div>

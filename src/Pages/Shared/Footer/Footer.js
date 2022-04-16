@@ -1,10 +1,11 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer>
+        <div className='footer bg-primary'>
             <p><small>Copyright 2022 © Learn Quran</small></p>
-        </footer>
+        </div>
     );
 };
 
