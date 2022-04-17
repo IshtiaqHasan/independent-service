@@ -8,7 +8,7 @@ const plans = [
 
 const Plans = () => {
     return (
-        <div id='plans' className='container'>
+        <div id='plans' className='container mb-5'>
             <h1 className='text-primary text-center mt-5 mb-5'>Choose Best Plans For Ramadan</h1>
             <div className='row'>
                 {
