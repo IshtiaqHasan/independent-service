@@ -1,44 +1,80 @@
 [
     {
         "id": 1,
-        "name": "Reading Quran Basics",
+        "name": "Reading Quran",
         "fee": "200",
         "description": "Do you dream of mastering the Holy Quran recitation whether for you or your children? Reading the Quran Basics course is your first step to achieving your dream. .",
-        "img": "https://i.ibb.co/X85zxQv/course2.jpg"
+        "img": "https://i.ibb.co/X85zxQv/course2.jpg",
+        "day": "3 days",
+        "ClassType": "One-to-One",
+        "ClassDuration": "40 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     },
     {
         "id": 2,
         "name": "Quran Recitation",
         "fee": "150",
         "description": "In this course, you will recite all of the Holy Quran. You will learn how to correctly recite it in the way as reported by the Prophet Muhammad (peace be upon him).  ",
-        "img": "https://i.ibb.co/BGWTRV7/course3.jpg"
+        "img": "https://i.ibb.co/BGWTRV7/course3.jpg",
+        "day": "2 days",
+        "ClassType": "One-to-One",
+        "ClassDuration": "30 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     },
     {
         "id": 3,
         "name": "Quran Tajweed",
         "fee": "220",
         "description": "Tajweed is the science of reciting the Quran according to the way heard by the companions from the Prophet Muhammad (peace be upon him). ",
-        "img": "https://i.ibb.co/J58wKSJ/course5.jpg"
+        "img": "https://i.ibb.co/J58wKSJ/course5.jpg",
+        "day": "4 days",
+        "ClassType": "One-to-One",
+        "ClassDuration": "50 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     },
     {
         "id": 4,
         "name": "Quran for Kids",
         "fee": "180",
         "description": "This course offers a complete path of Quran learning for kids ranging from learning Quran reading & recitation to studying Tajweed & memorizing the Quran.",
-        "img": "https://i.ibb.co/1bbbfZr/course1.jpg"
+        "img": "https://i.ibb.co/1bbbfZr/course1.jpg",
+        "day": "4 days",
+        "ClassType": "One-to-One",
+        "ClassDuration": "30 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     },
     {
         "id": 5,
         "name": "Quran Memorization",
         "fee": "150",
         "description": "Each Muslim dreams of Memorizing the Quran and understanding its meanings. Quran is the guidance sent by Allah Almighty to his Prophet Muhammad (PBUH).",
-        "img": "https://i.ibb.co/GTGyRMR/course4.jpg"
+        "img": "https://i.ibb.co/GTGyRMR/course4.jpg",
+        "day": "3 days",
+        "ClassType": "One-to-One",
+        "ClassDuration": "40 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     },
     {
         "id": 6,
         "name": "Ten Qira’at",
         "fee": "300",
         "description": "Ten Qirats are the ten famous methods of the Quran recitations by the famous authority chains holders. Each Qira’at derives its name from the famous Rawi.",
-        "img": "https://i.ibb.co/cYzpB9Q/course6.jpg"
+        "img": "https://i.ibb.co/cYzpB9Q/course6.jpg",
+        "day": "2 days",
+        "ClassType": "Group",
+        "ClassDuration": "50 minutes",
+        "CoursePeriod": "According to student's ability",
+        "Gender": "Both Male/Female",
+        "Languages": "Bangla/English/Arabic"
     }
 ]

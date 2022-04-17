@@ -20,7 +20,7 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     if (user) {
-        navigate(from, { replace: true });;
+        navigate(from, { replace: true });
     }
 
     const handleSubmit = event => {
