@@ -4,6 +4,7 @@ import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { getAuth, sendEmailVerification } from "firebase/auth";
 
 const Register = () => {
     const [
@@ -28,6 +29,13 @@ const Register = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         createUserWithEmailAndPassword(email, password);
+        verifyEmail();
+    }
+    const verifyEmail = () => {
+        sendEmailVerification(auth.currentUser)
+            .then(() => {
+                console.log('email sent')
+            })
     }
     return (
         <div className='register-form'>

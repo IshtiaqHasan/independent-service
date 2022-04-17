@@ -4,6 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import { sendPasswordResetEmail } from 'firebase/auth';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -23,6 +24,10 @@ const Login = () => {
         navigate(from, { replace: true });
     }
 
+    let errorElement;
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error.message}</p>
+    }
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
@@ -31,6 +36,13 @@ const Login = () => {
     }
     const navigateRegister = event => {
         navigate('/register')
+    }
+    const handlePasswordReset = () => {
+        const email = emailRef.current.value;
+        sendPasswordResetEmail(auth, email)
+            .then(() => {
+                console.log('email sent')
+            })
     }
     return (
         <div className="container w-50 mx-auto">
@@ -49,6 +61,8 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
+                <Button onClick={handlePasswordReset} variant="link">Forget Password</Button>
+                {errorElement}
             </Form>
             <p>Don't Have An Account? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}> Please Register</Link></p>
             <SocialLogin></SocialLogin>
