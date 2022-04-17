@@ -9,7 +9,7 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className='container'>
+        <div id='courses' className='container'>
             <h1 className='text-primary text-center mt-5 mb-2'>Easy Quran Learning Courses</h1>
             <div className='row gx-5'>
                 {

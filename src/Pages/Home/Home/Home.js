@@ -5,11 +5,11 @@ import Plans from '../Plans/Plans';
 
 const Home = () => {
     return (
-        <>
+        <div id='home'>
             <Banner></Banner>
             <Courses></Courses>
             <Plans></Plans>
-        </>
+        </div>
     );
 };
 
