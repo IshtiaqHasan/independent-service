@@ -5,7 +5,7 @@ const CourseDetail = ({ course }) => {
     const { courseId } = useParams();
     return (
         <div>
-            <h2 className='text-center m-5'>Welcome to This Course</h2>
+            <h2 className='text-center m-5'>Welcome To This Course</h2>
             <div className='text-center'>
                 <Link to='/checkout'>
                     <button className='btn btn-primary'>Proceed To Course</button>
