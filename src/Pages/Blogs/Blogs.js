@@ -3,7 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className='container'>
-            <h1 className='text-center m-3'>Questions & Answers</h1>
+            <h1 className='text-center m-3 text-primary'>Questions & Answers</h1>
             <h5>Question1: Difference between Authentication and Authorization?</h5>
             <p>Answer1: Both the authentication and authorization unit used in relation to information security allows for security in the default data system. Each area unit is one of the most important Internet-related topics as key features of its service infrastructure. However, each unit area of ​​condition is very different with completely different ideas. and it is true that they are often employed in the same place with the same tool, completely different from each other.In the Authentication process, user identity is checked to provide access to the system. During the authorization process, individual or user authorities are monitored for access to resources. Authorization process is done after the Authentication process, while the Authentication is done before the authorization process.
                 <ul>

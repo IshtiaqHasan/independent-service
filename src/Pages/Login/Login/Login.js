@@ -5,6 +5,8 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { sendPasswordResetEmail } from 'firebase/auth';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -41,12 +43,12 @@ const Login = () => {
         const email = emailRef.current.value;
         sendPasswordResetEmail(auth, email)
             .then(() => {
-                console.log('email sent')
+                toast('Check Your Email Address')
             })
     }
     return (
         <div className="container w-50 mx-auto">
-            <h2 className='text-center mt-5'>Please Login</h2>
+            <h2 className='text-center mt-5 text-primary'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -61,11 +63,16 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                <Button onClick={handlePasswordReset} variant="link">Forget Password</Button>
+                <p>
+                    Forget Password?
+                    <Button onClick={handlePasswordReset} variant="link">Reset Password</Button>
+                </p>
+
                 {errorElement}
             </Form>
             <p>Don't Have An Account? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}> Please Register</Link></p>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
     );
 };

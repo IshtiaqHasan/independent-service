@@ -16,7 +16,7 @@ const Header = () => {
         navigate('/login');
     }
     return (
-        <Navbar collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark" className='header'>
+        <Navbar collapseOnSelect expand="lg" sticky='top' className='header'>
             <Container>
                 <Navbar.Brand as={Link} to="/">
                     <img src={logo} height='40px' alt="" />
@@ -24,7 +24,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="home#home">Home</Nav.Link>
+                        <Nav.Link className='nav-link' href="home#home">Home</Nav.Link>
                         <Nav.Link href="home#courses">Courses</Nav.Link>
                         <Nav.Link href="home#plans">Plans</Nav.Link>
                     </Nav>

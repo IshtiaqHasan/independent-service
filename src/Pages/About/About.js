@@ -8,7 +8,7 @@ const About = () => {
         <div className='container d-flex align-items-center justify-content-center'>
             <div className=" about-me-info">
                 <img width="150" height="150" src={teacher} alt="" />
-                <h2>Learn Quran With Abdullah</h2>
+                <h2 className='text-primary mt-2'>Learn Quran With Abdullah</h2>
                 <h5>My Qualifications:</h5>
                 <ul>
                     <li>Memorizing the Qur'an</li>

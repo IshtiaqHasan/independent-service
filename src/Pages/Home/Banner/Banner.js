@@ -20,8 +20,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>There is no doubt in this Book (2:2)</h3>
+                    <p>This is the Book (the Quran), whereof there is no doubt, a guidance to those who are Al-Muttaqun [the pious and righteous persons who fear Allah much (abstain from all kinds of sins and evil deeds which He has forbidden) and love Allah much (perform all kinds of good deeds which He has ordained)].</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,8 +32,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Allah has taken the responsibility to explain it (75:19).</h3>
+                    <p>Don't worry if you can't read Quran, make a step and see how Allah help you.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -44,9 +44,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>Allah says He has revealed the Quran and He will protect it (15:9).</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        This verse of promise from Allah is enough to know that He will indeed protect the Qur'an from any errors and changes over time.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
